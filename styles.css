@@ -3,3 +3,259 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header Section starts here */
+
+nav{
+    background-color: #FFF;;
+}
+.nav-container{
+
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+    
+}
+.logo-container{
+
+    display: flex;
+    width: 50%;
+}
+
+.logo-container img{
+
+    width: 80px;
+    margin-right: 20px;
+}
+.logo-container p{
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;;
+  
+}
+
+.hive-section{
+    color: #FF42A5;
+}
+
+.nav-items-container{
+
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #3C354F;
+}
+
+.nav-items-container .login-btn{
+    padding: 10px 20px;
+    font-weight: 500;
+    color: #3C354F;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    
+}
+.first-icon{
+    color: red;
+    margin-left: 10px;
+}
+.second-icon{
+    margin-left: 10px;
+}
+
+/* banner-section starts here */
+.banner{
+    background-color: #e6e9eb;
+}
+.banner-container{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 15px 0px 15px;
+
+
+}
+
+.banner-text{
+     width: 50%;
+}
+
+.banner-text h3{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    font-weight: 700;
+}
+.banner-text p{
+    font-size: 15px;
+    color: #534C64;
+    font-weight: 500;
+    margin-top: 10px;
+    
+
+}
+.banner-text h2{
+    font-size: 35px;
+    color: #0B0223;
+    margin-top: 10px;
+}
+
+.banner-img{
+  width: 50%;
+}
+.banner-img img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.banner-button{
+color: #FFF;
+font-size: 15px;
+font-weight: 600;
+text-transform: uppercase;
+padding: 15px 25px;
+border-radius: 25px;
+background-color: #F948B2;
+border: none;
+
+}
+.btn{
+    margin-top: 20px;
+}
+
+.banner-text .btn-2{
+    background-color: rgb(37, 194, 194);
+    margin-left: 15px;
+}
+
+
+/* Gamer-section starts here */
+.gamer{
+    background-color: #FFF;
+    margin-bottom: 80px;
+}
+.gamer-container{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 30px;
+
+}
+
+.gamer-text{
+     width: 50%;
+     text-align: right;
+}
+
+.gamer-text h3{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 700;
+}
+.gamer-text p{
+   
+    font-size: 12px;
+    color: #534C64;
+    font-weight: 500;
+    margin-top: 10px;
+    line-height: 20px;
+
+}
+
+.gamer-img{
+  width: 50%;
+}
+.gamer-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.gamer-button{
+color: #FFF;
+font-size: 15px;
+font-weight: 600;
+text-transform: uppercase;
+padding: 15px 25px;
+border-radius: 25px;
+background-color: #F948B2;
+border: none;
+
+}
+.btn{
+    margin-top: 20px;
+}
+
+.banner-text .btn-2{
+    background-color: rgb(37, 194, 194);
+    margin-left: 15px;
+}
+
+.text-1{
+    color: #534C64;
+    line-height: 45px;
+    font-size: 15px;
+}
+.text-2{
+    color: #534C64;
+}
+
+/* grid section starts here */
+
+
+.grid-container{
+    display: grid;
+    max-width: 1000px;
+    margin: 0 auto;
+    min-height: 400px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 30px;
+    
+}
+.single-image{
+    width: 100%;
+}
+.single-image img{
+    width: 100%;
+
+}
+
+  .text-design{
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 700;
+  }  
+
+  .text-design-2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+  }
